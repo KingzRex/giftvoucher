@@ -427,19 +427,15 @@ main .sec-3 .roadmap img {
   height: 70vw;
 }
 
-footer {
-  height: 10vw;
+main .community {
+  height: 12vw;
   background-color: #7429c1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 100%;
 }
 
-footer .content {
+main .community .content {
+  position: relative;
+  top: 1vw;
   margin-left: 5%;
   margin-right: 5%;
   display: -webkit-box;
@@ -447,13 +443,13 @@ footer .content {
   display: flex;
 }
 
-footer .content span {
+main .community .content span {
   color: white;
   font-size: 2.5vw;
   font-weight: bold;
 }
 
-footer .content .links {
+main .community .content .links {
   position: relative;
   left: 24vw;
   width: 40vw;
@@ -464,7 +460,7 @@ footer .content .links {
       justify-content: space-around;
 }
 
-footer .content .links i {
+main .community .content .links i {
   cursor: pointer;
   color: white;
   font-size: 4vw;
@@ -472,7 +468,31 @@ footer .content .links i {
   transition: all 0.3s ease-in-out;
 }
 
-footer .content .links i:hover {
+main .community .content .links i:hover {
+  color: #b8b7b7;
+}
+
+main .community .support {
+  margin-left: 5%;
+  margin-top: 2%;
+  height: 5vw;
+}
+
+main .community .support span {
+  color: white;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+main .community .support i {
+  cursor: pointer;
+  color: white;
+  font-size: 2.5vw;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .community .support i:hover {
   color: #b8b7b7;
 }
 
@@ -792,6 +812,64 @@ footer .content .links i:hover {
     right: 10vw;
     width: 90vw;
     height: 90vw;
+  }
+  main .community {
+    height: 13vw;
+    background-color: #7429c1;
+    width: 100%;
+  }
+  main .community .content {
+    position: relative;
+    top: 1vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  main .community .content span {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+  }
+  main .community .content .links {
+    position: relative;
+    left: 24vw;
+    width: 40vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main .community .content .links i {
+    cursor: pointer;
+    color: white;
+    font-size: 4vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  main .community .content .links i:hover {
+    color: #b8b7b7;
+  }
+  main .community .support {
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  main .community .support span {
+    color: white;
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+  main .community .support i {
+    cursor: pointer;
+    color: white;
+    font-size: 2.5vw;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  main .community .support i:hover {
+    color: #b8b7b7;
   }
 }
 /*# sourceMappingURL=style.css.map */

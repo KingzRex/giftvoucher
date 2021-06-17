@@ -350,33 +350,52 @@ main {
       }
     }
   }
-}
+  .community {
+    height: 12vw;
 
-footer {
-  height: 10vw;
-  background-color: $color-2;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  .content {
-    margin-left: 5%;
-    margin-right: 5%;
-    display: flex;
-    span {
-      color: white;
-      font-size: 2.5vw;
-      font-weight: bold;
-    }
-    .links {
+    background-color: $color-2;
+    width: 100%;
+    .content {
       position: relative;
-      left: 24vw;
-      width: 40vw;
+      top: 1vw;
+      margin-left: 5%;
+      margin-right: 5%;
       display: flex;
-      justify-content: space-around;
+      span {
+        color: white;
+        font-size: 2.5vw;
+        font-weight: bold;
+      }
+      .links {
+        position: relative;
+        left: 24vw;
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        i {
+          cursor: pointer;
+          color: white;
+          font-size: 4vw;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: rgb(184, 183, 183);
+          }
+        }
+      }
+    }
+    .support {
+      margin-left: 5%;
+      margin-top: 2%;
+      height: 5vw;
+      span {
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bold;
+      }
       i {
         cursor: pointer;
         color: white;
-        font-size: 4vw;
+        font-size: 2.5vw;
         transition: all 0.3s ease-in-out;
         &:hover {
           color: rgb(184, 183, 183);
@@ -730,6 +749,58 @@ footer {
           right: 10vw;
           width: 90vw;
           height: 90vw;
+        }
+      }
+    }
+    .community {
+      height: 13vw;
+
+      background-color: $color-2;
+      width: 100%;
+      .content {
+        position: relative;
+        top: 1vw;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        span {
+          color: white;
+          font-size: 2.5vw;
+          font-weight: bold;
+        }
+        .links {
+          position: relative;
+          left: 24vw;
+          width: 40vw;
+          display: flex;
+          justify-content: space-around;
+          i {
+            cursor: pointer;
+            color: white;
+            font-size: 4vw;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+              color: rgb(184, 183, 183);
+            }
+          }
+        }
+      }
+      .support {
+        margin-left: 5%;
+        margin-top: 2%;
+        span {
+          color: white;
+          font-size: 1.8vw;
+          font-weight: bold;
+        }
+        i {
+          cursor: pointer;
+          color: white;
+          font-size: 2.5vw;
+          transition: all 0.3s ease-in-out;
+          &:hover {
+            color: rgb(184, 183, 183);
+          }
         }
       }
     }
